@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main(){
+
+	int x;
+	printf("Masukkan Angka\n");
+	scanf_s("%d", &x);
+
+	switch (x % 2)
+	{
+		case (0);
+		printf("Bilangan Genap\n");
+		default
+		printf("Bilangan Ganjil\n");
+
+		break;
+	}
+}
